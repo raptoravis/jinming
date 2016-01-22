@@ -1,52 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width">
-    <!-- <link href='http://fonts.googleapis.com/css?family=Lobster+Two:400' rel='stylesheet' type='text/css'> -->
-    <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/css/font.css">
-    <!-- <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/css/screen.css"> -->
-    <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/css/main.css">
-    <meta name="description" value="dcarpet marble">
-    <meta name="keywords" value="carpet marble">
-    <meta name="robots" content="index, follow"/>
-<!--     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-119040-18', 'pawsbuddy.co.uk');
-      ga('send', 'pageview');
-    </script> -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
+  <!-- <link href='http://fonts.googleapis.com/css?family=Lobster+Two:400' rel='stylesheet' type='text/css'> -->
+  <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/css/font.css">
+  <!-- <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/css/screen.css"> -->
+  <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/css/main.css">
+  <meta name="description" value="dcarpet marble">
+  <meta name="keywords" value="carpet marble">
+  <meta name="robots" content="index, follow"/>
 
-  </head>
-  <body class="{{ page.pageclass }}">
-  	 <div class="leader">
-      <div class="container hide-on-mobiles">
-        <ul class="contact">
-          <li data-icon="&#x6d;"><a href="tel:008613902875185">+86 139 0287 5185</a></li>
-          <li data-icon="&#x65;"><a href="mailto:j.m.macau@gmail.com">j.m.macau@gmail.com</a></li>
-          <li data-icon="&#x74;"><a href="http://twitter.com/jinming">jinming</a></li>
-        </ul>
-      </div>
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?776db2b3422d35b1c1c0997e36b5bfeb";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+</head>
+<body class="{{ page.pageclass }}">
+  <div class="leader">
+    <div class="container hide-on-mobiles">
+      <ul class="contact">
+        <li data-icon="&#x6d;"><a href="tel:008613902875185">+86 139 0287 5185</a></li>
+        <li data-icon="&#x65;"><a href="mailto:j.m.macau@gmail.com">j.m.macau@gmail.com</a></li>
+        <li data-icon="&#x74;"><a href="http://twitter.com/jinming">jinming</a></li>
+      </ul>
     </div>
-    <div class="header grid">
-      <div class="container">
-      	<h1 class="title"><a href="{{site.url}}{{site.baseurl}}/" title="Home page">jinming</a></h1>
-      	<p>carpet, marble &amp; others</p>
-    	</div>
-    	{% include navigation.html %}
-    </div>
-    <div class="content">
-    	<div class="container">
-    		{{ content }}
-    	</div>
-    </div>
-    <div class="footer">
-			{% include navigation.html %}
-			<p>jinming, 2016</p>
-    </div>
-  </body>
+  </div>
+  <div class="header grid">
+    <div class="container">
+     <h1 class="title"><a href="{{site.url}}{{site.baseurl}}/" title="Home page">jinming</a></h1>
+     <p>carpet, marble &amp; others</p>
+   </div>
+   {% include navigation.html %}
+ </div>
+ <div class="content">
+   <div class="container">
+    {{ content }}
+  </div>
+</div>
+<div class="footer">
+ {% include navigation.html %}
+ <p>jinming, 2016</p>
+</div>
+</body>
 </html>
