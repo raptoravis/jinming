@@ -1,0 +1,5 @@
+http://www.jinming.com
+
+Built using Jekyll and hosted on Github Pages
+by raptoravis
+contact via https://github.com/raptoravis

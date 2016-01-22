@@ -1,0 +1,16 @@
+name: jinming 
+description: 金铭国际
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "strikethrough"]
+
+url: "" 
+baseurl: "/jinming" 
+
+# port: 4000
+# destiation: site
+
+exclude: ["CNAME", "README.me"]
+excerpt_separator: <!--more-->
+permalink: /blog/:title
