@@ -5,8 +5,8 @@ markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "strikethrough"]
 
-url: http://www.jinming.com
-baseurl: "" 
+url: http://raptoravis.github.io
+baseurl: "/jinming" 
 
 # port: 4000
 # destiation: site
