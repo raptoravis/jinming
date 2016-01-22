@@ -131,7 +131,7 @@ body.home .header{
  	background: url(../images/little-walt.jpg) center repeat;
  	background-size: 150%;
 }
-body.cats .header {
+body.marble .header {
    background: url(../images/polly-wally1.jpg) no-repeat center center;
    background-size: 180%;
 }
@@ -139,7 +139,7 @@ body.contact .header {
  	background: url(../images/tot_blur_rich_large.jpg) no-repeat right center;
  	background-size: 215%;
 }
-body.dogs .header {
+body.carpet .header {
  	background: url(../images/tot_fetch.jpg) no-repeat center;
  	background-size: 150%;
  	background-position: 0 20%;
