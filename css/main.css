@@ -2,9 +2,8 @@
 	font-family: 'Lato';
 	font-style: normal;
 	font-weight: 300;
-	src: local('Lato Light'), local('Lato-Light'), url(../fonts/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+	src: local('Lato Light'), local('Lato-Light'), url(../fonts/font.woff2) format('woff2');
 }
-
 @font-face {
 	font-family: 'paw-dings';
 	src:url('fonts/paw-dings.eot');
@@ -45,7 +44,8 @@ body {
 }
 
 h1, h2, h3 {
-	font-weight: 400;
+	font-family: "Microsoft YaHei";
+	font-weight: 600;
 	padding:0.4em 0 0.4em;
 }
 h1 {
