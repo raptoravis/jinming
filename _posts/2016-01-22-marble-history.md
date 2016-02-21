@@ -6,7 +6,6 @@ title: marble history
 published: true
 ---
 
-marble history
-<!--more-->
+marble history excerpt
 
-marble history
+marble history content

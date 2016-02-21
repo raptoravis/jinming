@@ -6,7 +6,6 @@ title: carpet history
 published: true
 ---
 
-carpet history
-<!--more-->
+carpet history excerpt
 
-carpet history
+carpet history content
