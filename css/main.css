@@ -444,11 +444,13 @@ li.hrmenu a:link, li.hrmenu a:visited
 	padding:6px;
 	text-decoration:none;
 	text-transform:uppercase;
+	border-bottom: none;
 }
 
 li.hrmenu a:hover, li.hrmenu a:active
 {
 	background-color:#7A991A;
+	border-bottom: none;
 }
 
 #gotoTop{
