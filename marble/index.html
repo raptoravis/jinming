@@ -5,47 +5,28 @@ pageclass: marble
 ---
 
 <!-- https://shawfloors.com/flooring/carpet/details/getting-better-z6848/granite -->
-
 <section class="">
-	<div class="header">
-		<p>Select a square to view the tile swatches.</p>
-		<div class="range-slider hide">
-			<input type="range" min="0" max="1000" value="500" step="1">
-		</div>
-	</div>
-
-
 	<div class="top-wrapper">
 		<div id="wrapper" class="slider-wrapper">
+			<h2> Select a square to view the swatch</h2>
 			<ul id="scroller" class="hrmenu">
-
+				{% for image in site.static_files %}
+				{% if image.path contains 'images/marble' %}
 				<li class="hrmenu">
 					<a href="#"> 
-						<img class="hrmenu_item" src="{{site.url}}{{site.baseurl}}/images/carpet/mmexport1452083755540.jpg">
+						<img class="hrmenu_item" src="{{site.url}}{{site.baseurl}}{{ image.path }}">
 					</a>
 				</li>
-
-				<li class="hrmenu">
-					<a href="#"> 
-						<img class="hrmenu_item" src="{{site.url}}{{site.baseurl}}/images/carpet/mmexport1452083759053.jpg">
-					</a>
-				</li>
-
+				{% endif %}
+				{% endfor %}
 			</ul>
 		</div>
-		<hr/>
-
-		<div class="top">
-			<p>Color N° 00554</p>
-			<h1>GRANITE</h1>
-			<div class="ctas" data-shaw-id="Z6848_00554">
-				<a href="#" class="add-to-my-shaw"><span></span></a>
-			</div>
-		</div>
-
 	</div>
 
+	<hr/>
+
 	<div class="color-details">
+		<h1>GRANITE</h1>
 		<img src="{{site.url}}{{site.baseurl}}/images/carpet/mmexport1452083755540.jpg">
 	</div>
 
