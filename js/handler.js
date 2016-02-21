@@ -25,4 +25,12 @@ function gotoTop(min_height){
     });
 };
 
+function small_clicked(evt) {
+ // alert("clicked");
+ var img_src = evt.target.getAttribute('src');
+ $("#large_img").attr("src", img_src); 
+}
+
+
 window.onload = function(){gotoTop();}
+('src');

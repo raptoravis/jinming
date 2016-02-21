@@ -13,7 +13,7 @@ pageclass: carpet
 				{% for image in site.static_files %}
 				{% if image.path contains 'images/carpet' %}
 				<li class="hrmenu">
-					<a href="#"> 
+					<a href="#" onclick="small_clicked(event)"> 
 						<img class="hrmenu_item" src="{{site.url}}{{site.baseurl}}{{ image.path }}">
 					</a>
 				</li>
@@ -26,17 +26,17 @@ pageclass: carpet
 	<hr/>
 
 	<div class="color-details">
-		<h1>GRANITE</h1>
-		<img src="{{site.url}}{{site.baseurl}}/images/carpet/mmexport1452083755540.jpg">
+		<h1>Detail</h1>
+		<img id="large_img" src="{{site.url}}{{site.baseurl}}/images/carpet/mmexport1452083755540.jpg">
 	</div>
 
 </section>
 
-<section class="product-detail-overview">
+<!-- <section class="product-detail-overview">
 	<div class="wrap">
 		<article id="about" class="open">
 			<h1>Description</h1>
 			<p> description description description description </p>
 		</article>
 	</div>
-</section>
+</section> -->

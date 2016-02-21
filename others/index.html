@@ -1,7 +1,42 @@
 ---
 layout: default
-title: others
-pageclass: contact
+title: fire rate doors
+pageclass: fireratedoors
 ---
 
-<h1>others</h1>
+<!-- https://shawfloors.com/flooring/carpet/details/getting-better-z6848/granite -->
+<section class="">
+	<div class="top-wrapper">
+		<div id="wrapper" class="slider-wrapper">
+			<h2> Select a square to view the swatch</h2>
+			<ul id="scroller" class="hrmenu">
+				{% for image in site.static_files %}
+				{% if image.path contains 'images/firerate' %}
+				<li class="hrmenu">
+					<a href="#" onclick="small_clicked(event)"> 
+						<img class="hrmenu_item" src="{{site.url}}{{site.baseurl}}{{ image.path }}">
+					</a>
+				</li>
+				{% endif %}
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+
+	<hr/>
+
+	<div class="color-details">
+		<h1>Detail</h1>
+		<img id="large_img" src="{{site.url}}{{site.baseurl}}/images/carpet/mmexport1452083755540.jpg">
+	</div>
+
+</section>
+
+<!-- <section class="product-detail-overview">
+	<div class="wrap">
+		<article id="about" class="open">
+			<h1>Description</h1>
+			<p> description description description description </p>
+		</article>
+	</div>
+</section> -->
