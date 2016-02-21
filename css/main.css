@@ -450,3 +450,33 @@ li.hrmenu a:hover, li.hrmenu a:active
 {
 	background-color:#7A991A;
 }
+
+#gotoTop{
+  display:none;
+  position:fixed;
+  top:50%;
+  left:90%;
+  cursor:pointer;
+  padding:0px 0px;
+  width:30px;
+  text-align:center;
+  border:1px solid rgb(187, 113, 0);
+  background:#7A991A;
+  font-size: 10px;
+  color: #000;
+  border-radius: 2px;
+  word-wrap:break-word;
+}
+
+#gotoTop{
+  /*position:absolute;*/
+  top:expression(documentElement.scrollTop + documentElement.clientHeight * 3/4 + "px")
+}
+#gotoTop.hover{
+  background:#5CB542;
+  color:#fff;
+  text-decoration:none;
+  color: yellow;
+  border:1px solid #e0e0e0;
+  border-radius: 2px;
+}
