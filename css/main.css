@@ -136,7 +136,7 @@ body.marble .header {
 	background: url(../images/polly-wally1.jpg) no-repeat center center;
 	background-size: 180%;
 }
-body.contact .header {
+body.others .header {
 	background: url(../images/tot_blur_rich_large.jpg) no-repeat right center;
 	background-size: 215%;
 }
@@ -209,7 +209,6 @@ body.blog .header {
 	color: #fff;
 	text-decoration: none;
 	font-style: bold;
-	background-color: #222;
 	background-color: rgba(0,0,0,0.4);
 	padding: 0.4em 0.6em;
 	border-radius: 5px;
@@ -232,7 +231,7 @@ body.carpet li.carpet a,
 body.marble li.marble a,
 body.information li.information a,
 body.blog li.blog a,
-body.contact li.contact a {
+body.others li.others a {
 	background: #e46b6d;
 	color: #fff;
 }
@@ -279,7 +278,7 @@ textarea {
 
 @media all and (min-width: 420px) {
 
-	body.contact .header {
+	body.others .header {
 		background-size: 150%;
 		background-position-x: inherit;
 	}
@@ -307,7 +306,7 @@ textarea {
 		background-size: 120%;
 		background-position: 0 10%;
 	}
-	body.contact .header {
+	body.others .header {
 		background-size: 145%;
 		background-position-x: right;
 	}
@@ -353,7 +352,7 @@ textarea {
 		background: url(../images/tot_fetch.jpg) center repeat;
 		background-size: 120%;
 	}
-	body.contact .header {
+	body.others .header {
 		background-size: 110%;
 	}
 	body.information .header {
