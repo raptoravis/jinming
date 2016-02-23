@@ -262,59 +262,6 @@ textarea {
 	height:80px;
 }
 
-@media all and (min-width: 420px) {
-
-	body.others .header {
-		background-size: 150%;
-		background-position-x: inherit;
-	}
-
-}
-
-/* if the viewport gets bigger than 500px */
-@media all and (min-width: 500px) {
-	.leader li {
-		display: inline-block;
-		padding:0 0.4em;
-		line-height: 2.8em;
-		border-bottom-style: none;
-		margin: 0;
-	}
-
-	body.home .header {
-		background-size: 100%;
-		background-position: 0 30%;
-	}
-	body.carpet .header {
-		background-size: 130%;
-	}
-	body.marble .header {
-		background-size: 120%;
-		background-position: 0 10%;
-	}
-	body.others .header {
-		background-size: 145%;
-		background-position-x: right;
-	}
-	body.information .header {
-		background-size: 120%;
-	}
-	body.blog .header {
-		background-size: 100%;
-	}
-
-	.header h1 {
-		font-size: 4em;
-	}
-	.header p {
-		font-size: 1.2em;
-		line-height: 1.1em;
-	}
-	.nav a:link, .nav a:visited {
-		font-size:1.2em;
-	}
-}
-
 
 /* if the viewport gets bigger than 700px */
 @media all and (min-width: 900px) {
@@ -455,7 +402,7 @@ aside {
 	font-weight: bold;
 	width: 150px;
 	left:1%;
-	top:45%;
+	top:50%;
 }
 
 aside ul {
