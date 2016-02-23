@@ -177,7 +177,7 @@ body.blog .header {
 }
 
 .leader li {
-	display: block;
+	display: inline-block;
 	margin: 0;
 	line-height: 2em
 }
