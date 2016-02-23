@@ -132,28 +132,28 @@ ul {
 	padding-top:3em;
 }
 body.home .header{
-	background: url(../images/little-walt.jpg) center repeat;
+	background: url(../images/mmexport1453364858225.jpg) center repeat;
 	background-size: 150%;
 }
 body.marble .header {
-	background: url(../images/polly-wally1.jpg) no-repeat center center;
+	background: url(../images/mmexport1453364858225.jpg) no-repeat center center;
 	background-size: 180%;
 }
 body.others .header {
-	background: url(../images/tot_blur_rich_large.jpg) no-repeat right center;
+	background: url(../images/mmexport1453364858225.jpg) no-repeat right center;
 	background-size: 215%;
 }
 body.carpet .header {
-	background: url(../images/tot_fetch.jpg) no-repeat center;
+	background: url(../images/mmexport1453364858225.jpg) no-repeat center;
 	background-size: 150%;
 	background-position: 0 20%;
 }
 body.information .header {
-	background: url(../images/scamp.jpg) no-repeat center;
+	background: url(../images/mmexport1453364858225.jpg) no-repeat center;
 	background-size: 120%;
 }
 body.blog .header {
-	background: url(../images/wally-yawn.jpg) no-repeat left top;
+	background: url(../images/mmexport1453364858225.jpg) no-repeat left top;
 	background-size: 120%;
 }
 
@@ -324,32 +324,6 @@ textarea {
 		margin:0 auto;
 	}
 
-	h1 {
-		font-size:2.6em;
-	}
-
-	body.home .header{
-		background-position: 0 35%;
-	}
-	body.carpet .header {
-		background-size: 110%;
-	}
-	body.marble .header {
-		background: url(../images/tot_fetch.jpg) center repeat;
-		background-size: 120%;
-	}
-	body.others .header {
-		background-size: 110%;
-	}
-	body.information .header {
-		background: url(../images/scamp@2x.jpg) no-repeat center;
-		background-size: 120%;
-	}
-	body.blog .header {
-		background: url(../images/wally-yawn.jpg) no-repeat left 15%;
-		background-size: 100%;
-	}
-
 	.header h1 {
 		font-size: 5em;
 	}
@@ -492,6 +466,6 @@ aside ul {
 	color: blue;
 }*/
 
- .hide-on-mobiles {
-    display: none;
-  }
+@media (max-width: 830px) {
+    .hide-on-mobiles { display: none; }
+}
