@@ -58,13 +58,16 @@ h2 {
 h3 {
 	font-size:1em;
 }
-p, ul {
+
+/*p, ul {
 	margin: 0 0 1em;
 	line-height: 140%;
 }
 ul {
 	padding: 0 1em;
 }
+
+*/
 
 .header h1 {
 	font-size:3em;
@@ -104,9 +107,9 @@ ul {
 .content a:visited {
 	color: #e46b6d;
 	text-decoration: none;
-	padding-bottom:0.05em;
+/*	padding-bottom:0.05em;
 	border-bottom: solid 1px #e46b6d;
-}
+*/}
 .content a:hover,
 .content a:focus {
 	color: #6a94ae;
@@ -258,23 +261,6 @@ input, textarea {
 textarea {
 	height:80px;
 }
-#submit {
-	margin:0 auto 1em;
-	font-size: 1.2em;
-	padding:1em;
-	color: #fff;
-	background-color: #333;
-	border-radius: 5px;
-	border-style:none;
-	width: 50%;
-}
-#submit:hover,
-#submit:focus  {
-	color: #fff;
-	background-color: #e46b6d;
-}
-
-
 
 @media all and (min-width: 420px) {
 
@@ -331,10 +317,10 @@ textarea {
 
 
 /* if the viewport gets bigger than 700px */
-@media all and (min-width: 700px) {
+@media all and (min-width: 900px) {
 
 	.container {
-		width: 650px;
+		width: 800px;
 		margin:0 auto;
 	}
 
@@ -391,17 +377,6 @@ ul.posts li {
 	margin-bottom: 2em;
 }
 
-.embed-container {
-	position: relative;
-	padding-bottom: 56.25%;
-	padding-top: 30px;
-	height: 0;
-	overflow: hidden;
-	max-width: 100%;
-	height: auto;
-	margin: 1.5em 0;
-}
-.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
 .QR_code{
   width: 166px;
@@ -424,14 +399,26 @@ ul.hrmenu
 	list-style-type:none;
 	margin:0;
 	padding:0;
-	padding-top:6px;
+/*	padding-top:6px;
 	padding-bottom:6px;
-}
+*/}
 li.hrmenu
 {
-	display:inline;
+	display:inline-block;
 	/*float: left;*/
-	border: 1px solid gray;
+	border: none;
+}
+
+li.hrmenu img {
+	vertical-align:bottom; 
+}
+
+
+li.hrmenu a {
+	display: block; 
+	vertical-align:bottom;
+	overflow: auto;
+	border: none;
 }
 
 li.hrmenu a:link, li.hrmenu a:visited
@@ -440,7 +427,7 @@ li.hrmenu a:link, li.hrmenu a:visited
 	color:#FFFFFF;
 	/*background-color:#98bf21;*/
 	text-align:center;
-	padding:6px;
+	/*padding:6px;*/
 	text-decoration:none;
 	text-transform:uppercase;
 	border-bottom: none;
@@ -448,8 +435,8 @@ li.hrmenu a:link, li.hrmenu a:visited
 
 li.hrmenu a:hover, li.hrmenu a:active
 {
-	background-color:#7A991A;
-	border-bottom: none;
+	/*background-color:#7A991A;*/
+	border: 2px solid green;
 }
 
 #gotoTop{

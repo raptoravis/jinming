@@ -13,8 +13,8 @@ pageclass: carpet
 				{% for image in site.static_files %}
 				{% if image.path contains 'images/carpet' %}
 				<li class="hrmenu">
-					<a href="#" onclick="small_clicked(event)"> 
-						<img class="hrmenu_item" src="{{site.url}}{{site.baseurl}}{{ image.path }}">
+					<a onclick="small_clicked(event)"> 
+						<img class="hrmenu_item" src="{{site.url}}{{site.baseurl}}{{ image.path }}"> </img>
 					</a>
 				</li>
 				{% endif %}
