@@ -11,7 +11,7 @@ pageclass: others
 			<h2> Select a square to view the swatch</h2>
 			<ul id="scroller" class="hrmenu">
 				{% for image in site.static_files %}
-				{% if image.path contains 'images/firerate' %}
+				{% if image.path contains 'thumbnails/firerate' %}
 				<li class="hrmenu">
 					<a onclick="small_clicked(event)"> 
 						<img class="hrmenu_item" src="{{site.url}}{{site.baseurl}}{{ image.path }}">
@@ -27,7 +27,7 @@ pageclass: others
 
 	<div class="color-details">
 		<h1>Detail</h1>
-		<img id="large_img" src="{{site.url}}{{site.baseurl}}/images/firerate/mmexport1452083755540.jpg">
+		<img id="large_img" src="{{site.url}}{{site.baseurl}}/thumbnails/firerate/mmexport1452083755540.jpg">
 	</div>
 
 </section>

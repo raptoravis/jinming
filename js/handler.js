@@ -33,6 +33,7 @@ function small_clicked(evt) {
   img_src = imgs[0].getAttribute('src');
  }
  if (img_src) {
+   img_src = img_src.replace('thumbnails/', "images/");
    $("#large_img").attr("src", img_src); 
  }
 }
@@ -50,7 +51,8 @@ window.onload = function() {
       var imgs = firstItem[0].getElementsByTagName('img');
       var img_src = imgs[0].getAttribute('src');
       if (img_src) {
-       $("#large_img").attr("src", img_src); 
+        img_src = img_src.replace('thumbnails/', "images/");
+        $("#large_img").attr("src", img_src); 
      }
    }
 }
