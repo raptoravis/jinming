@@ -491,3 +491,7 @@ aside ul {
 /*ul.main_nav a:link {
 	color: blue;
 }*/
+
+ .hide-on-mobiles {
+    display: none;
+  }
