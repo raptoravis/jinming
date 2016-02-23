@@ -473,3 +473,16 @@ li.hrmenu a:hover, li.hrmenu a:active
 	width: 600px;
 	height: 600px;
 }
+
+aside {
+	position:absolute;
+	background-color:#dda;
+	border:1px solid black;
+	width: 200px;
+	left:1%;
+	top:45%;
+}
+
+aside ul {
+	list-style-type:none;
+}
