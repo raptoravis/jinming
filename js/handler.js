@@ -46,7 +46,7 @@ window.onload = function() {
     //   firstItem[0].trigger("click");
     // }
     var firstItem = $('#scroller li').first().find("a");
-    if (firstItem) {
+    if (firstItem && firstItem.length > 0) {
       // firstItem.trigger("click");
       var imgs = firstItem[0].getElementsByTagName('img');
       var img_src = imgs[0].getAttribute('src');
