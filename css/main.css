@@ -331,12 +331,12 @@ li.hrmenu
 }
 
 li.hrmenu img {
-	vertical-align:bottom; 
+	vertical-align:bottom;
 }
 
 
 li.hrmenu a {
-	display: block; 
+	display: block;
 	vertical-align:bottom;
 	overflow: auto;
 	border: none;
@@ -402,7 +402,7 @@ aside {
 	font-weight: bold;
 	width: 150px;
 	left:1%;
-	top:50%;
+	top:30%;
 }
 
 aside ul {
